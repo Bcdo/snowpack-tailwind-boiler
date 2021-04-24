@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0] -
+
+### Added
+
+- Components check
+- Tailwind Check
+
+### Updated
+
+- Index page
+- gitignore .ds_store
+
 ## [1.1.0] - 2021-04-24
 
 ### Added
