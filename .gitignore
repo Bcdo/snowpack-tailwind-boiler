@@ -8,3 +8,4 @@ dist
 build
 .husky
 .snowpack
+.DS_Store
