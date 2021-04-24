@@ -392,9 +392,9 @@ canvas {
 .leading-9 {
 	line-height: 2.25rem;
 }
-.text-green-900 {
+.text-blue-400 {
 	--tw-text-opacity: 1;
-	color: rgba(6, 78, 59, var(--tw-text-opacity));
+	color: rgba(96, 165, 250, var(--tw-text-opacity));
 }
 .text-gray-900 {
 	--tw-text-opacity: 1;

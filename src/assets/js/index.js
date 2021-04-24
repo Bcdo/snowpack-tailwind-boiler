@@ -1,7 +1,12 @@
 "use strict";
 
 // This is just for the confetti, can be deleted
-import ConfettiGenerator from "confetti-js";
-var confettiSettings = { target: "my-canvas" };
-var confetti = new ConfettiGenerator(confettiSettings);
-confetti.render();
+import { helloWorld } from "./hello-world.js";
+import confetti from "canvas-confetti";
+
+helloWorld();
+
+confetti.create(document.getElementById("canvas"), {
+  resize: true,
+  useWorker: true,
+})({ particleCount: 200, spread: 200 });
