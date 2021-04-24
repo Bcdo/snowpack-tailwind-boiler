@@ -39,6 +39,6 @@
     "tailwindcss": "^2.1.1"
   },
   "dependencies": {
-    "confetti-js": "^0.0.18"
+    "canvas-confetti": "^1.4.0"
   }
 }

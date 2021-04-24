@@ -12,7 +12,8 @@ module.exports = {
   },
   optimize: {
     bundle: true,
-    target: "es2018",
+    minify: true,
+    target: "es2020",
   },
   plugins: [],
 };
