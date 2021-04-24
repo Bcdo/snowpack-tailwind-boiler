@@ -1,6 +1,6 @@
 {
   "name": "snowpack-tailwind-boiler",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "scripts": {
     "postcss:watch": "postcss src/assets/css/index.pcss -o src/assets/css/index.css --env development -w",

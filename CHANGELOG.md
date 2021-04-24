@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.1.0] - 2020-04-24
+## [1.1.0] - 2021-04-24
 
 ### Added
 
@@ -10,7 +10,7 @@
 
 - Fixed missing javascript, added type module.
 
-## [1.0.0] - 2020-04-24
+## [1.0.0] - 2021-04-24
 
 ### Intitial
 
