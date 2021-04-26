@@ -1,0 +1,25 @@
+{
+  "imports": {
+    "/404.html": {
+      "entry": [],
+      "css": [],
+      "js": []
+    },
+    "/index.html": {
+      "entry": [
+        "/_dist_/assets/js/index.js",
+        "/_dist_/assets/js/plugins.js"
+      ],
+      "css": [
+        "/_dist_/assets/css/index.css",
+        "/site.webmanifest"
+      ],
+      "js": [
+        "/_dist_/assets/js/index.js",
+        "/_dist_/assets/js/plugins.js",
+        "https://www.google-analytics.com/analytics.js"
+      ]
+    }
+  },
+  "generated": {}
+}
