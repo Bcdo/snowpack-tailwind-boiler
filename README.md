@@ -1,6 +1,6 @@
 ## Snowpack-Tailwind-boiler
 
-This is a boiler project Snowpack with [Tailwind](https://tailwindcss.com/) for styling and the option to use autopublish to Github pages using actions. Based on [this repo](https://github.com/jonalvarezz/snowpack-template-tailwind), and my [parcel build](https://github.com/Bcdo/parcel-tailwind-boiler).
+This is a boiler project Snowpack with [Tailwind](https://tailwindcss.com/) for styling and the option to use autopublish to Github pages using actions. Based on [this repo](https://github.com/jonalvarezz/snowpack-template-tailwind), and my [parcel build](https://github.com/Bcdo/parcel-tailwind-boiler) with some best practice implementation from the [H5BP organisation](https://html5boilerplate.com/).
 
 ## Usage
 
