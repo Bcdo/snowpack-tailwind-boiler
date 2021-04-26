@@ -3,9 +3,9 @@
 /*
 
 Run the dev server and check to see if the component comes through the index.js. If the checkmark
-is there, then everything in this file can be deleted, as well as the component.js file.
+is there, then everything below, as well as the component.js file.
     
-    Happy designing!
+    Happy Programming!
 */
 import { checkComponent } from "./component.js";
 

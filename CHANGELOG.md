@@ -6,11 +6,13 @@
 
 - Components check
 - Tailwind Check
+- Lisence.md
 
 ### Updated
 
 - Index page
 - gitignore .ds_store
+- Readme.md
 
 ## [1.1.0] - 2021-04-24
 

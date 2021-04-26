@@ -2,6 +2,8 @@
   "name": "snowpack-tailwind-boiler",
   "version": "1.1.0",
   "description": "",
+  "author": "Bjørnar Otterlei",
+  "homepage": "https://github.com/Bcdo/snowpack-tailwind-boiler",
   "scripts": {
     "postcss:watch": "postcss src/assets/css/index.pcss -o src/assets/css/index.css --env development -w",
     "postcss:build": "postcss src/assets/css/index.pcss -o src/assets/css/index.css --env production",
@@ -13,8 +15,7 @@
     "install:husky": "husky install",
     "pre-commit": "pretty-quick --staged"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.1.3",
     "autoprefixer": "^10.2.5",
