@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.3.0] - 2021
+
+### Added
+
+- snowpack-plugin-minify-html
+
+### Fixed
+
+- Fixed build error, confetti-js not found.
+
+### Updated
+
+- Updated readme
+
 ## [1.2.0] - 2021-04-26
 
 ### Added

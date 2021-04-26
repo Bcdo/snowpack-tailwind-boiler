@@ -15,5 +15,18 @@ module.exports = {
     minify: true,
     target: "es2020",
   },
-  plugins: [],
+  plugins: [
+    [
+      "snowpack-plugin-minify-html",
+      {
+        /**
+         * @see Plugin Options below
+         */
+        htmlMinifierOptions: {
+          sortAttributes: true,
+          removeComments: true,
+        },
+      },
+    ],
+  ],
 };
