@@ -12,20 +12,13 @@ module.exports = {
   },
   optimize: {
     bundle: true,
-    minify: true,
     target: "es2020",
   },
   plugins: [
     [
-      "snowpack-plugin-minify-html",
+      "@snowpack/plugin-optimize",
       {
-        /**
-         * @see Plugin Options below
-         */
-        htmlMinifierOptions: {
-          sortAttributes: true,
-          removeComments: true,
-        },
+        /* see options below */
       },
     ],
   ],
