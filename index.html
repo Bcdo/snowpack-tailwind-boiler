@@ -2,46 +2,85 @@
     <meta charset="UTF-8">
     <title>Tailwind-boiler</title>
 
-    <meta name="description" content="The description goes here!">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta property="og:title" content>
-    <meta property="og:type" content>
-    <meta property="og:url" content>
-    <meta property="og:image" content>
+    <meta content="The description goes here!" name="description">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    
+    <meta content property="og:title">
+    <meta content property="og:type">
+    <meta content property="og:url">
+    <meta content property="og:image">
 
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="/_dist_/assets/css/index.css">
+    <link rel="modulepreload">
 
-    <meta name="theme-color" content="#fafafa">
+    <meta content="#fafafa" name="theme-color">
   </head>
 
   <body class="font-sans">
-    <!-- Delete this section to start for scratch! -->
-    <section class="py-12 overflow-hidden md:py-20 lg:py-24">
-      <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="relative">
-          <div class="max-w-3xl mx-auto text-2xl font-medium leading-9 text-center text-green-900">
-            <p>The tailwind boiler is ready to be to used!</p>
-          </div>
-          <footer class="mt-8">
-            <div class="md:flex md:items-center md:justify-center">
-              <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-                <div class="text-base font-medium text-gray-900 underline">
-                  <a href="https://github.com/Bcdo/tailwind-boiler">Github</a>
-                  <canvas id="my-canvas"></canvas>
-                </div>
-              </div>
-            </div>
-          </footer>
+    
+
+    <div class="bg-white">
+      <div class="px-4 py-6 mx-auto max-w-7xl sm:px-6 lg:py-12 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center">
+          <h2 class="text-3xl font-extrabold text-gray-900">
+            A Snowpack - Tailwind boiler
+          </h2>
+          <p class="mt-4 text-lg text-gray-500">
+            This is a <a href>Snowpack</a> and <a href>Tailwind</a> boiler
+            project. If everything is green, and confetti is falling, you are
+            ready to proceed. I have left some
+          </p>
         </div>
+        <dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
+          <div class="relative lg:col-start-2">
+            <dt>
+              
+
+              <svg aria-hidden="true" class="absolute w-6 h-6 text-red-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" id="checkFail">
+                <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" fill-rule="evenodd"/>
+              </svg>
+              <svg aria-hidden="true" class="absolute hidden w-6 h-6 text-green-500" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="checkPass" stroke="currentColor">
+                <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              <p class="text-lg font-medium leading-6 text-gray-900 ml-9">
+                Component check
+              </p>
+            </dt>
+            <dd class="mt-2 text-base text-gray-500 ml-9" id="passMessage">
+              The component check failed. The component.js is not being served
+              through the index.js. If the confetti is going further down this
+              page, then the index.js is connected. Something is wrong!
+            </dd>
+          </div>
+
+          <div class="relative lg:col-start-3">
+            <dt>
+              
+              <svg aria-hidden="true" class="absolute w-6 h-6 text-green-500" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              </svg>
+              <p class="text-lg font-medium leading-6 text-gray-900 ml-9">
+                TailwindCSS JIT
+              </p>
+            </dt>
+            <dd class="mt-2 text-base text-gray-500 ml-9">
+              Tailwind JIT is being used. When building, PurgeCSS should only
+              include the classes used in the final css file.
+            </dd>
+          </div>
+        </dl>
       </div>
-    </section>
+    </div>
+    
+    <canvas id="canvas"></canvas>
 
-    <script src="/_dist_/assets/js/plugins.js"></script>
-    <script src="/_dist_/assets/js/index.js"></script>
+    
 
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script src="/_dist_/assets/js/plugins.js" type="module"></script>
+    <script src="/_dist_/assets/js/index.js" type="module"></script>
+
+    
     <script>
       window.ga = function () {
         ga.q.push(arguments);
