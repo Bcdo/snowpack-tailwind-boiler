@@ -1,15 +1,15 @@
 "use strict";
 
 /*
-    "Hello world" should show in console. If it does, 
-    everything is connected and anything underneath this
-    comment can be deleted, as well as hello-world.js 
-    
-    Happy designing!
-*/
-import { helloWorld } from "./hello-world.js";
 
-helloWorld();
+Run the dev server and check to see if the component comes through the index.js. If the checkmark
+is there, then everything below, as well as the component.js file.
+    
+    Happy Programming! 
+*/
+import { checkComponent } from "./component.js";
+
+checkComponent();
 
 // This is just for the confetti, can be deleted
 import ConfettiGenerator from "confetti-js";
