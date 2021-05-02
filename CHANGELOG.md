@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.5.0] 2021
+
+### Updated
+
+- Markup in Readme
+- Icon, tile, tile-wide and favicon
+
 ### [1.4.0] 2021-04-26
 
 ### Fixed
