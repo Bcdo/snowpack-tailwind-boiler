@@ -2,9 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Tailwind-boiler</title>
+    <title>Page Title less than 55 characters</title>
 
-    <meta name="description" content="The description goes here!" />
+    <meta
+      name="description"
+      content="Description of the page less than 150 characters"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- TODO: Change the icons and tile images -->
     <meta property="og:title" content="" />
@@ -13,14 +16,19 @@
     <meta property="og:image" content="" />
 
     <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
-    <link rel="stylesheet" href="%PUBLIC_URL%/_dist_/assets/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="%PUBLIC_URL%/_dist_/assets/css/index.css"
+      media="print"
+      onload="this.media='all'"
+    />
 
     <meta name="theme-color" content="#fafafa" />
   </head>
 
   <body class="font-sans">
-    <!-- Hi there! After npm install, do npm run start and have a look to she if everything shows
-     correctly on the index page. Everything greenn, with some confetti falling?
+    <!-- Hi there! After npm install, do npm run start and have a look to see if everything shows
+     correctly on the index page. Everything green, with some confetti falling?
      Great! Now delete everything from here... -->
 
     <div class="bg-white">
