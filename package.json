@@ -1,6 +1,6 @@
 {
   "name": "snowpack-tailwind-boiler",
-  "version": "1.4.0",
+  "version": "1.6.0",
   "description": "",
   "author": "Bjørnar Otterlei",
   "homepage": "https://github.com/Bcdo/snowpack-tailwind-boiler",
@@ -36,13 +36,8 @@
     "posthtml-load-config": "^2.0.0",
     "prettier": "^2.0.5",
     "pretty-quick": "^3.1.0",
-    "snowpack": "^3.0.11",
+    "snowpack": "^3.3.7",
     "stylelint-config-standard": "^21.0.0",
     "tailwindcss": "^2.1.1"
-  },
-  "dependencies": {
-    "canvas-confetti": "^1.4.0",
-    "confetti-js": "^0.0.18",
-    "snowpack-plugin-minify-html": "^0.1.1"
   }
 }

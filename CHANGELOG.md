@@ -1,6 +1,29 @@
 # Changelog
 
-### [1.4.0] 2021-04-26
+## [1.5.1] 2021
+
+### Updated
+
+- Index, description and title
+- Index, async [async css](https://www.filamentgroup.com/lab/load-css-simpler/)
+
+## [1.5.0] 2021-04-30
+
+### Updated
+
+- Markup in Readme
+- Icon, tile, tile-wide and favicon
+
+### Added
+
+- Skypack cdn for confetti
+
+### Removed
+
+- Plugin-minify-html from dependencies, as the build will minify html by default.
+- Confetti dependency.
+
+## [1.4.0] 2021-04-26
 
 ### Fixed
 
