@@ -4,7 +4,7 @@ This is a boiler project Snowpack with [Tailwind](https://tailwindcss.com/) for 
 
 ## Usage
 
-Clone the repo, and run
+Press the `Use This Template` button, or Clone the repo and run
 
 ```sh
 npm install
