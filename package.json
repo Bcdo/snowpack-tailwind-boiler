@@ -10,7 +10,7 @@
     "snowpack:dev": "snowpack dev",
     "snowpack:build": "snowpack build",
     "clean": "rm -rf build",
-    "build": "npm-run-all -s clean postcss:build snowpack:build",
+    "build": "npm-run-all -s postcss:build snowpack:build",
     "start": "npm-run-all -s clean -p postcss:watch snowpack:dev",
     "install:husky": "husky install",
     "pre-commit": "pretty-quick --staged"
@@ -36,7 +36,7 @@
     "posthtml-load-config": "^2.0.0",
     "prettier": "^2.0.5",
     "pretty-quick": "^3.1.0",
-    "snowpack": "^3.0.11",
+    "snowpack": "^3.3.7",
     "stylelint-config-standard": "^21.0.0",
     "tailwindcss": "^2.1.1"
   }

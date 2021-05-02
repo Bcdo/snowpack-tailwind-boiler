@@ -38,9 +38,9 @@ To set up the autopublish
 
 ## Extra
 
-I have written comments and made [TODOS](https://github.com/Gruntfuggly/todo-tree) for best practices. This is of course optional to follow.
-
 You can find some great server configs from the [H5BP organization](https://github.com/h5bp/server-configs) if wanted.
+
+I have just started to use a [front end checklist](https://github.com/thedaviddias/Front-End-Checklist#---------front-end-checklist-) myself, a lot of useful information here.
 
 ## Contributing
 
